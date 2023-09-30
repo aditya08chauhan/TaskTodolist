@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+#todo-container {
+    max-width: 400px;
+    margin-top: 20vh;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    background-color: rgb(189, 56, 213);
+    color: white;
+}
+
+#task-list {
+    list-style: none;
+    padding: 0;
+}
+
+.task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.task input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+#task-input {
+    width: 100%;
+    padding: 8px;
+}
+
+#add-button {
+    display: flex;
+    width: 25%;
+    margin: auto;
+    padding: 10px;
+    background-color: #5f9cdd;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
